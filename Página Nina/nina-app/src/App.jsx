@@ -27,7 +27,7 @@ function App() {
     {
       id: 4,
       title: 'CANAL DE YOUTUBE - MEDITACIONES GRATUITAS',
-      description: 'Sublimanles o meditacines guiadas',
+      description: 'Subliminales o meditaciones guiadas',
       link: 'https://www.youtube.com/@poder_cuantico333',
       image: '/button-leading-icon.png'
     },
