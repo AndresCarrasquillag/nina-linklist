@@ -86,7 +86,7 @@ function App() {
       </section>
       <footer className="footer">
         <p>CRAFTED WITH </p>
-        <img id="heart-icon" src="/public/heart.png" alt="heart_icon"/>
+        <img id="heart-icon" src="/heart.png" alt="heart_icon"/>
         <strong> ARALLA</strong>
       </footer>
     </div>
