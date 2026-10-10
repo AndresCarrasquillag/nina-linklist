@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+    --background: #F7EAF8;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  color: #8C7A9A;
+  padding: 1rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  width: 50vw;
+  min-width: 300px;
+  height: 50px;
+  min-height: max-content;
+  text-align: center;
+  &:hover {
+    background-color: #ffe0f0;
+    cursor: pointer;
+  };
+  color:inherit;
+}
+
+.card > * {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#title {
+    margin: 0.5rem 0;
+    font-family: 'Fraunces', sans-serif;
+}
+
+#username {
+    margin: 0.5rem 0;
+}
+#description {
+    margin: 0.5rem 0;   
+}
+.social-media {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#heart-icon {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.social-icon {
+
+    &:hover {
+        cursor: pointer;
+    };
+}
+
+#profile-image {
+    border-radius: 50%;
+}
