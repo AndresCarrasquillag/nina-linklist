@@ -136,6 +136,6 @@ html, body {
     }
 
     .card:active {
-        background-color: #ffe0f0;
+        background-color: #ffe0f0 !important;
     }
 }
