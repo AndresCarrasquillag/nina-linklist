@@ -13,14 +13,14 @@ function App() {
     {
       id: 2,
       title: 'Guía completa para manifestar una persona específica (PE)',
-      description: 'Guías para manifestar PE, abundancia, etc...',
+      description: 'Guías para manifestar a tu Persona Específica (PE) desde la ley de asunción',
       image: '/book-icon.png',
       link: 'https://www.canva.com/design/DAHCKQxLv8s/TPQrPXa4pWIQ81M8bfSapA/view?utm_content=DAHCKQxLv8s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf9a31c1f0b'
     },
     {
       id: 3,
       title: 'Guía completa para manifestar abundancia y dinero',
-      description: 'Meditaciones y subliminales gratuitos',
+      description: 'Guía para manifestar abundancia y dinero desde la ley de asunción',
       link: 'https://www.canva.com/design/DAHNXAgcQXc/eP5YiiO9qpg3f7zTzNEGVg/view?utm_content=DAHNXAgcQXc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7965c6280c',
       image: '/cash-icon.png'
     },
