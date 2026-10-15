@@ -139,3 +139,9 @@ html, body {
         background-color: #ffe0f0 !important;
     }
 }
+
+.card img,
+.card h3,
+.card p {
+    pointer-events: none;
+}
