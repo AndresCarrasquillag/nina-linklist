@@ -122,3 +122,14 @@ html, body {
         object-fit: cover;
     }
 }
+
+@media (hover: hover) and (pointer: fine) {
+    .card:hover {
+        background-color: #ffe0f0;
+        cursor: pointer;
+    }
+}
+
+.card:active {
+    background-color: #ffe0f0;
+}
