@@ -32,8 +32,9 @@
   width: 50vw;
   max-width: 700px;
   min-width: 0;
-  height: 50px;
+  height: auto;
   min-height: max-content;
+  box-sizing: border-box;
   text-align: center;
   &:hover {
     background-color: #ffe0f0;
@@ -87,4 +88,36 @@
 
 #profile-image {
     border-radius: 50%;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 85vw;
+        padding: 0.75rem;
+        border-radius: 1.5rem;
+    }
+
+    #title {
+        font-size: 1.5rem;
+    }
+
+    #username {
+        font-size: 1rem;
+    }
+
+    #description {
+        font-size: 0.85rem;
+    }
+
+    #profile-image {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .social-icon {
+        width: 24px;
+        height: 24px;
+    }
 }
