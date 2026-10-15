@@ -80,7 +80,7 @@ function App() {
         ))}
       </section>
       <section className="social-media">
-        <img className="social-icon" src="/social-mail.png" alt="logo_instagram" onClick={() => window.open('https://www.tiktok.com/@poder_cuantico333', '_blank')}/>
+        <img className="social-icon" src="/social-mail.png" alt="logo_instagram" onClick={() => window.open('https://wa.me/message/YH7NX2TJYJXHB1', '_blank')}/>
         <img className="social-icon" src="/social-instagram.png" alt="logo_instagram" onClick={() => window.open('https://www.instagram.com/poder_cuantico333/', '_blank')}/>
         <img className="social-icon" src="/social-youtube.png" alt="logo_youtube" onClick={() => window.open('https://www.youtube.com/@poder_cuantico333', '_blank')}/>
       </section>
