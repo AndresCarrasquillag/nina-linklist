@@ -130,12 +130,12 @@ html, body {
     }
 }
 
-.card:active {
-    background-color: #ffe0f0;
-}
-
 @media (hover: none) {
     .card:hover {
         background-color: #ffffff;
+    }
+
+    .card:active {
+        background-color: #ffe0f0;
     }
 }
